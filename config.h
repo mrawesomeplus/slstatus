@@ -69,6 +69,7 @@ static const struct arg args[] = {
 	{ ram_used,	"RAM %s",	    NULL},
 	{ ram_total,	"/%s]    ",	    NULL},
 	{ wifi_essid,   "[%s ", 	    "wlp2s0"},
+	{ run_command,	": %4s ",	    "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
 	{ netspeed_rx,	"%s ",		    "wlp2s0"},
 	{ battery_perc, " %s%%]    ",	    "BAT1" },
 	{ datetime,     "%s",       	    "%a %b %d %r" },
