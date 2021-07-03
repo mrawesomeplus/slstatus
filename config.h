@@ -72,5 +72,5 @@ static const struct arg args[] = {
 	{ netspeed_rx,	"%sB/s | ",	    "wlp2s0"},
 	{ run_command,	":%4s | ",	    "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
 	{ battery_perc, "%s%% | ",	    "BAT1" },
-	{ datetime,     "%s",       	    "%a %D %r" },
+	{ datetime,     "%s",       	    "%Y %b %d (%a) %I:%M%p" },
 };
