@@ -71,8 +71,8 @@ static const struct arg args[] = {
 	{ wifi_essid,        "%s",	        "wlp2s0"},
 	{ netspeed_rx,	     ":%sB/s | ",       "wlp2s0"},
 	{ run_command,	     ":%4s | ",        "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
-	{ battery_perc,      "%s%% ",	        "BAT1" },
-	{ battery_state,     "%s ",             "BAT1" },
-	{ battery_remaining, "%s remaining | ", "BAT1" },
+	{ battery_state,     "%s ",            "BAT1" },
+	{ battery_perc,      "%s%% ",	        "BAT1" },
+	{ battery_remaining, "%s | ", 		"BAT1" },
 	{ datetime,          "%s",              "%Y %b %d (%a) %I:%M%p" },
 };
