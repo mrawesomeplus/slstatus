@@ -73,6 +73,6 @@ static const struct arg args[] = {
 	{ run_command,	     ":%4s | ",        "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
 	{ battery_perc,      "%s%% ",	        "BAT1" },
 	{ battery_state,     "%s ",             "BAT1" },
-	{ battery_remaining, "%s remaining | ", "Bat1" },
+	{ battery_remaining, "%s remaining | ", "BAT1" },
 	{ datetime,          "%s",              "%Y %b %d (%a) %I:%M%p" },
 };
