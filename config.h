@@ -67,8 +67,8 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ cpu_perc,          "[CPU %s%%] ",       NULL},
 	{ ram_perc,	     "[RAM %s%%] ",	NULL},
-	{ wifi_essid,        "[ %s",	        "wlp2s0"},
-	{ netspeed_rx,	     ":%sB/s] ",       "wlp2s0"},
+	{ wifi_essid,        "[ %s",	        "wlan0"},
+	{ netspeed_rx,	     ":%sB/s] ",       "wlan0"},
 	{ run_command,	     ":%s%% ",        "pamixer --get-volume" },
 	{ battery_state,     " %s",            "BAT1" },
 	{ battery_perc,      "%s%% ",	        "BAT1" },
